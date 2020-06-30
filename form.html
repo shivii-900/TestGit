@@ -1,0 +1,73 @@
+<html>
+<body>
+<form name="employment" action="send.php" method="post">
+  <table width="50%" border="0" cellspacing="2">
+     <tr>
+         <td>employe application</td>
+         <td></td>
+     </tr>
+     <tr>
+         <td>first name</td>
+         <td><input type="text" fname="text" maxlength="30"></td>
+     </tr>
+     <tr>
+         <td>last name</td>
+         <td><input type="text" lname="text" maxlength="30"</td>
+     </tr>
+     <tr>
+         <td>position</td>
+         <td>
+             <select>
+                     <option>none</option>
+                     <option value="te">teacher</option>
+                     <option value="he">head of department</option>
+                     <option value="st">student</option>
+                     <option value="em">employe</option>
+             </select>
+         </td>
+     </tr>
+     <tr>
+         <td>experience level</td>
+         <td>
+              <select>
+                     <option>none</option>
+                     <option>1 year exp</option>
+                     <option>good exp</option>
+                     <option>10 year exp</option>
+                     <option>talented</option>
+             </select>
+         </td>
+     </tr>
+     <tr>
+         <td>job type</td>
+         <td><input type="checkbox" name="ftime" />full time
+             <input type="checkbox" name="ptime" />part time
+             <input type="checkbox" name="contract" />contract
+         </td>
+     </tr>
+     <tr>
+        <td>employment status</td>
+        <td>
+             <input type="radio" name="estatus" value="employed" />employed
+             <input type="radio" name="estatus" value="unemployed" />unemployed
+             <input type="radio" name="estatus" value="student"/>student
+         </td>
+      </tr>
+      <tr>
+          <td>additional comment</td>
+           <td>
+               <textarea name="comment" col="30" row="10" ></textarea>         
+           </td>
+      </tr>
+      <tr>
+          <td></td>
+          <td> 
+              <input type="submit" value="submit"/>
+               <input type="reset" value="reset"/>
+          </td>
+
+      </tr>
+  </table>
+</form>
+</body>
+</html>
